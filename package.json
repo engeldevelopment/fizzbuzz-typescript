@@ -1,8 +1,9 @@
 {
   "scripts": {
+    "build": "yarn clean && tsc",
     "test": "jest --watchAll",
     "test:cov": "jest --coverage",
-    "clean": "rm -rf coverage *.log"
+    "clean": "rm -rf coverage build *.log"
   },
   "devDependencies": {
     "@types/jest": "^26.0.22",
