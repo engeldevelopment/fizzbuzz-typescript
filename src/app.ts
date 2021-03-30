@@ -14,11 +14,11 @@ export default class FizzBuzzCalculator {
     }
 
     private isMultipleOfThree(number: number): boolean {
-        return (number % 3) == 0
+        return (number % 3) === 0
     }
 
     private isMultipleOfFive(number: number): boolean {
-        return (number % 5) == 0
+        return (number % 5) === 0
     }
 
     private isMultipleOfBoth(number: number) {
