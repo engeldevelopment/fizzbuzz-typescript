@@ -1,0 +1,13 @@
+dist: xenial
+language: node_js
+node_js:
+  - 14
+
+before_install:
+  - npm i yarn
+
+install:
+  - yarn
+
+script:
+  - yarn run test:cov
